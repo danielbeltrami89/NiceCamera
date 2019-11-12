@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6783ACF0237AEB5C00FA4A8B /* NiceCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 6783ACEE237AEB5C00FA4A8B /* NiceCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6783ACF7237AF67300FA4A8B /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6783ACF6237AF67300FA4A8B /* CameraVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6783ACEB237AEB5C00FA4A8B /* NiceCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NiceCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6783ACEE237AEB5C00FA4A8B /* NiceCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NiceCamera.h; sourceTree = "<group>"; };
 		6783ACEF237AEB5C00FA4A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6783ACF6237AF67300FA4A8B /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				6783ACEE237AEB5C00FA4A8B /* NiceCamera.h */,
 				6783ACEF237AEB5C00FA4A8B /* Info.plist */,
+				6783ACF6237AF67300FA4A8B /* CameraVC.swift */,
 			);
 			path = NiceCamera;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					6783ACEA237AEB5C00FA4A8B = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6783ACF7237AF67300FA4A8B /* CameraVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		6783ACF4237AEB5C00FA4A8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -277,6 +283,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -285,6 +292,7 @@
 		6783ACF5237AEB5C00FA4A8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
