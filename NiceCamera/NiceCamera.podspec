@@ -9,6 +9,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "moraesdan89" => "moraesdan89@gmail.com" }
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/moraesdan/NiceCamera.git", :tag => "#{spec.version}" }
-  spec.source_files = "NiceCamera"
+  spec.source_files = "NiceCamera/**/*"
+  spec.exclude_files= "NiceCamera/NiceCamera/*.plist"
  
 end

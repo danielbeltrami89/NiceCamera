@@ -9,13 +9,61 @@
 /* Begin PBXBuildFile section */
 		6783ACF0237AEB5C00FA4A8B /* NiceCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 6783ACEE237AEB5C00FA4A8B /* NiceCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6783ACF7237AF67300FA4A8B /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6783ACF6237AF67300FA4A8B /* CameraVC.swift */; };
+		6783ACFF237B0DBC00FA4A8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6783ACFE237B0DBC00FA4A8B /* AppDelegate.swift */; };
+		6783AD01237B0DBC00FA4A8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6783AD00237B0DBC00FA4A8B /* SceneDelegate.swift */; };
+		6783AD03237B0DBC00FA4A8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6783AD02237B0DBC00FA4A8B /* ViewController.swift */; };
+		6783AD06237B0DBC00FA4A8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6783AD04237B0DBC00FA4A8B /* Main.storyboard */; };
+		6783AD08237B0DBE00FA4A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6783AD07237B0DBE00FA4A8B /* Assets.xcassets */; };
+		6783AD0B237B0DBE00FA4A8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6783AD09237B0DBE00FA4A8B /* LaunchScreen.storyboard */; };
+		6783AD11237B0DF200FA4A8B /* NiceCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6783ACEB237AEB5C00FA4A8B /* NiceCamera.framework */; };
+		6783AD12237B0DF200FA4A8B /* NiceCamera.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6783ACEB237AEB5C00FA4A8B /* NiceCamera.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6783AD17237B2E6700FA4A8B /* CameraSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6783AD16237B2E6700FA4A8B /* CameraSB.storyboard */; };
+		6783AD19237B2EB100FA4A8B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6783AD18237B2EB100FA4A8B /* Media.xcassets */; };
+		6783AD1B237B2F8900FA4A8B /* NiceCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6783AD1A237B2F8900FA4A8B /* NiceCamera.swift */; };
+		6783AD1D237B306100FA4A8B /* PreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6783AD1C237B306100FA4A8B /* PreviewVC.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6783AD13237B0DF200FA4A8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6783ACE2237AEB5C00FA4A8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6783ACEA237AEB5C00FA4A8B;
+			remoteInfo = NiceCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6783AD15237B0DF200FA4A8B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6783AD12237B0DF200FA4A8B /* NiceCamera.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6783ACEB237AEB5C00FA4A8B /* NiceCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NiceCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6783ACEE237AEB5C00FA4A8B /* NiceCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NiceCamera.h; sourceTree = "<group>"; };
 		6783ACEF237AEB5C00FA4A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6783ACF6237AF67300FA4A8B /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		6783ACFC237B0DBC00FA4A8B /* NiceCameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceCameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6783ACFE237B0DBC00FA4A8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6783AD00237B0DBC00FA4A8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6783AD02237B0DBC00FA4A8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6783AD05237B0DBC00FA4A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6783AD07237B0DBE00FA4A8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6783AD0A237B0DBE00FA4A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6783AD0C237B0DBE00FA4A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6783AD16237B2E6700FA4A8B /* CameraSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CameraSB.storyboard; sourceTree = "<group>"; };
+		6783AD18237B2EB100FA4A8B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		6783AD1A237B2F8900FA4A8B /* NiceCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceCamera.swift; sourceTree = "<group>"; };
+		6783AD1C237B306100FA4A8B /* PreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +74,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6783ACF9237B0DBC00FA4A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6783AD11237B0DF200FA4A8B /* NiceCamera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -33,7 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				6783ACED237AEB5C00FA4A8B /* NiceCamera */,
+				6783ACFD237B0DBC00FA4A8B /* NiceCameraDemo */,
 				6783ACEC237AEB5C00FA4A8B /* Products */,
+				6783AD10237B0DF200FA4A8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -41,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				6783ACEB237AEB5C00FA4A8B /* NiceCamera.framework */,
+				6783ACFC237B0DBC00FA4A8B /* NiceCameraDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,11 +107,60 @@
 		6783ACED237AEB5C00FA4A8B /* NiceCamera */ = {
 			isa = PBXGroup;
 			children = (
-				6783ACEE237AEB5C00FA4A8B /* NiceCamera.h */,
-				6783ACEF237AEB5C00FA4A8B /* Info.plist */,
-				6783ACF6237AF67300FA4A8B /* CameraVC.swift */,
+				6783AD20237B309600FA4A8B /* Service */,
+				6783AD1F237B308600FA4A8B /* ViewController */,
+				6783AD1E237B307D00FA4A8B /* Model */,
 			);
 			path = NiceCamera;
+			sourceTree = "<group>";
+		};
+		6783ACFD237B0DBC00FA4A8B /* NiceCameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6783ACFE237B0DBC00FA4A8B /* AppDelegate.swift */,
+				6783AD00237B0DBC00FA4A8B /* SceneDelegate.swift */,
+				6783AD02237B0DBC00FA4A8B /* ViewController.swift */,
+				6783AD04237B0DBC00FA4A8B /* Main.storyboard */,
+				6783AD07237B0DBE00FA4A8B /* Assets.xcassets */,
+				6783AD09237B0DBE00FA4A8B /* LaunchScreen.storyboard */,
+				6783AD0C237B0DBE00FA4A8B /* Info.plist */,
+			);
+			path = NiceCameraDemo;
+			sourceTree = "<group>";
+		};
+		6783AD10237B0DF200FA4A8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6783AD1E237B307D00FA4A8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6783AD1F237B308600FA4A8B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6783AD16237B2E6700FA4A8B /* CameraSB.storyboard */,
+				6783ACF6237AF67300FA4A8B /* CameraVC.swift */,
+				6783AD1C237B306100FA4A8B /* PreviewVC.swift */,
+				6783AD18237B2EB100FA4A8B /* Media.xcassets */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6783AD20237B309600FA4A8B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6783AD1A237B2F8900FA4A8B /* NiceCamera.swift */,
+				6783ACEE237AEB5C00FA4A8B /* NiceCamera.h */,
+				6783ACEF237AEB5C00FA4A8B /* Info.plist */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,18 +195,41 @@
 			productReference = 6783ACEB237AEB5C00FA4A8B /* NiceCamera.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		6783ACFB237B0DBC00FA4A8B /* NiceCameraDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6783AD0F237B0DBE00FA4A8B /* Build configuration list for PBXNativeTarget "NiceCameraDemo" */;
+			buildPhases = (
+				6783ACF8237B0DBC00FA4A8B /* Sources */,
+				6783ACF9237B0DBC00FA4A8B /* Frameworks */,
+				6783ACFA237B0DBC00FA4A8B /* Resources */,
+				6783AD15237B0DF200FA4A8B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6783AD14237B0DF200FA4A8B /* PBXTargetDependency */,
+			);
+			name = NiceCameraDemo;
+			productName = NiceCameraDemo;
+			productReference = 6783ACFC237B0DBC00FA4A8B /* NiceCameraDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		6783ACE2237AEB5C00FA4A8B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Dan Beltrami";
 				TargetAttributes = {
 					6783ACEA237AEB5C00FA4A8B = {
 						CreatedOnToolsVersion = 11.0;
 						LastSwiftMigration = 1100;
+					};
+					6783ACFB237B0DBC00FA4A8B = {
+						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
@@ -116,6 +247,7 @@
 			projectRoot = "";
 			targets = (
 				6783ACEA237AEB5C00FA4A8B /* NiceCamera */,
+				6783ACFB237B0DBC00FA4A8B /* NiceCameraDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +257,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6783AD19237B2EB100FA4A8B /* Media.xcassets in Resources */,
+				6783AD17237B2E6700FA4A8B /* CameraSB.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6783ACFA237B0DBC00FA4A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6783AD0B237B0DBE00FA4A8B /* LaunchScreen.storyboard in Resources */,
+				6783AD08237B0DBE00FA4A8B /* Assets.xcassets in Resources */,
+				6783AD06237B0DBC00FA4A8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,10 +280,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				6783ACF7237AF67300FA4A8B /* CameraVC.swift in Sources */,
+				6783AD1D237B306100FA4A8B /* PreviewVC.swift in Sources */,
+				6783AD1B237B2F8900FA4A8B /* NiceCamera.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6783ACF8237B0DBC00FA4A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6783AD03237B0DBC00FA4A8B /* ViewController.swift in Sources */,
+				6783ACFF237B0DBC00FA4A8B /* AppDelegate.swift in Sources */,
+				6783AD01237B0DBC00FA4A8B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6783AD14237B0DF200FA4A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6783ACEA237AEB5C00FA4A8B /* NiceCamera */;
+			targetProxy = 6783AD13237B0DF200FA4A8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6783AD04237B0DBC00FA4A8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6783AD05237B0DBC00FA4A8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6783AD09237B0DBE00FA4A8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6783AD0A237B0DBE00FA4A8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6783ACF1237AEB5C00FA4A8B /* Debug */ = {
@@ -271,8 +454,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = NiceCamera/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NiceCamera/Service/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,8 +482,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = NiceCamera/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NiceCamera/Service/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +495,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6783AD0D237B0DBE00FA4A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WR4LVC62P8;
+				INFOPLIST_FILE = NiceCameraDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.danbeltrami.NiceCameraDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6783AD0E237B0DBE00FA4A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WR4LVC62P8;
+				INFOPLIST_FILE = NiceCameraDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.danbeltrami.NiceCameraDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -332,6 +555,15 @@
 			buildConfigurations = (
 				6783ACF4237AEB5C00FA4A8B /* Debug */,
 				6783ACF5237AEB5C00FA4A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6783AD0F237B0DBE00FA4A8B /* Build configuration list for PBXNativeTarget "NiceCameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6783AD0D237B0DBE00FA4A8B /* Debug */,
+				6783AD0E237B0DBE00FA4A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
